@@ -108,7 +108,7 @@
   }
 
   // ======= AUDIO (пул + надёжная разблокировка) =======
-  const SOUND_SRC = 'https://raw.githubusercontent.com/exellentyes-hue/sales-leaderboard/refs/heads/main/videoplayback.mp3';
+  const SOUND_SRC = 'https://raw.githubusercontent.com/exellentyes-hue/sales-leaderboard2/refs/heads/main/videoplayback.mp3';
   const SOUND_POOL_SIZE = 4;
   function initSoundPool(){
     state.soundPool = Array.from({length: SOUND_POOL_SIZE}, () => {
